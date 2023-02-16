@@ -1,0 +1,17 @@
+.itemSlider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    user-select: none;
+    &.mek{
+        background-color: red;
+    }
+    &.erku{
+        background-color: blue;
+    }
+    &.ereq{
+        background-color: green;
+    }
+}
